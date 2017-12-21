@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_genres"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/Title"
+        android:layout_width="302dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/gridLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ntclogo" />
+
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/asiabutton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/asiaicon" />
+
+        <Button
+            android:id="@+id/africabutton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/africaicon" />
+
+        <Button
+            android:id="@+id/europebutton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/europeicon" />
+
+        <Button
+            android:id="@+id/namericabutton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/namericaicon" />
+
+        <Button
+            android:id="@+id/samericabutton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/samerica" />
+
+        <Button
+            android:id="@+id/oceaniabutton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/oceaniaicon" />
+
+        <Button
+            android:id="@+id/allbutton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/allicon" />
+    </GridLayout>
+
+
+</RelativeLayout>

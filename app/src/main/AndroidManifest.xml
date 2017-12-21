@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="games.emilent.namethatcountry">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ntclogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NoTitle">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".continents.AfricaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".continents.AsiaActivity"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".continents.EuropeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".continents.LevelGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".continents.NorthAmericaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".continents.SouthAmericaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".continents.OceaniaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GenresActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".continents.AllActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>
